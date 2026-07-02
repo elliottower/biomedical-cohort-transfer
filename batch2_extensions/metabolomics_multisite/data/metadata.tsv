@@ -1,0 +1,585 @@
+Sample_ID	Study	Group
+CU100084	Columbia	control
+CU100103	Columbia	control
+CU100139	Columbia	disease
+CU100195	Columbia	disease
+CU100228	Columbia	disease
+CU100242	Columbia	control
+CU100340	Columbia	disease
+CU100372	Columbia	disease
+CU100386	Columbia	control
+CU100394	Columbia	control
+CU100500	Columbia	control
+CU100521	Columbia	control
+CU100582	Columbia	control
+CU100598	Columbia	disease
+CU100614	Columbia	disease
+CU100675	Columbia	disease
+CU100683	Columbia	control
+CU100708	Columbia	control
+CU100762	Columbia	control
+CU100859	Columbia	control
+CU100912	Columbia	control
+CU100966	Columbia	control
+CU100999	Columbia	control
+CU101007	Columbia	disease
+CU101030	Columbia	disease
+CU101063	Columbia	disease
+CU101108	Columbia	control
+CU101235	Columbia	control
+CU101247	Columbia	control
+CU101284	Columbia	control
+CU101353	Columbia	control
+CU101401	Columbia	disease
+CU101469	Columbia	disease
+CU101483	Columbia	disease
+CU101559	Columbia	control
+CU101664	Columbia	control
+CU101688	Columbia	disease
+CU101837	Columbia	disease
+CU101849	Columbia	disease
+CU101958	Columbia	control
+CU101972	Columbia	disease
+CU101986	Columbia	control
+CU102027	Columbia	disease
+CU102115	Columbia	control
+CU102130	Columbia	control
+CU102174	Columbia	control
+CU102189	Columbia	control
+CU102246	Columbia	control
+CU102267	Columbia	control
+CU102278	Columbia	control
+CU102295	Columbia	control
+CU102313	Columbia	control
+CU102376	Columbia	control
+CU102382	Columbia	disease
+CU102410	Columbia	control
+CU102447	Columbia	control
+CU102496	Columbia	control
+CU102509	Columbia	control
+CU102586	Columbia	disease
+CU102618	Columbia	control
+CU102626	Columbia	control
+CU102659	Columbia	disease
+CU102687	Columbia	disease
+CU102704	Columbia	disease
+CU102850	Columbia	disease
+CU102869	Columbia	control
+CU102941	Columbia	control
+CU103008	Columbia	disease
+CU103085	Columbia	control
+CU103194	Columbia	control
+CU103222	Columbia	disease
+CU103303	Columbia	control
+CU103311	Columbia	control
+CU103346	Columbia	disease
+CU103413	Columbia	control
+CU103421	Columbia	control
+CU103454	Columbia	disease
+CU103543	Columbia	control
+CU103674	Columbia	disease
+CU103796	Columbia	control
+CU103944	Columbia	disease
+CU103987	Columbia	disease
+CU104486	Columbia	disease
+CU104950	Columbia	control
+CU105046	Columbia	disease
+IA210022	Other	disease
+IA210102	Other	disease
+IA210123	Other	disease
+IA210168	Other	control
+IA210208	Other	disease
+IA210229	Other	disease
+IA210442	Other	control
+JH110031	Johns Hopkins	disease
+JH110043	Johns Hopkins	disease
+JH110070	Johns Hopkins	disease
+JH110088	Johns Hopkins	disease
+JH110142	Johns Hopkins	control
+JH110252	Johns Hopkins	control
+JH110278	Johns Hopkins	disease
+JH110280	Johns Hopkins	control
+JH110321	Johns Hopkins	control
+JH110398	Johns Hopkins	control
+JH110447	Johns Hopkins	control
+JH110451	Johns Hopkins	control
+JH110468	Johns Hopkins	disease
+JH110496	Johns Hopkins	control
+JH110687	Johns Hopkins	disease
+JH110693	Johns Hopkins	control
+JH110704	Johns Hopkins	disease
+JH110720	Johns Hopkins	control
+JH110745	Johns Hopkins	disease
+JH110753	Johns Hopkins	disease
+JH110777	Johns Hopkins	control
+JH110799	Johns Hopkins	disease
+JH110848	Johns Hopkins	disease
+JH110875	Johns Hopkins	disease
+JH110934	Johns Hopkins	disease
+JH111078	Johns Hopkins	disease
+JH111177	Johns Hopkins	control
+JH111219	Johns Hopkins	control
+JH111569	Johns Hopkins	control
+JH111575	Johns Hopkins	control
+JH111647	Johns Hopkins	control
+JH111679	Johns Hopkins	disease
+JH111715	Johns Hopkins	disease
+JH111756	Johns Hopkins	control
+JH111809	Johns Hopkins	disease
+JH111861	Johns Hopkins	control
+JH112291	Johns Hopkins	disease
+JH112358	Johns Hopkins	control
+JH112431	Johns Hopkins	disease
+JH112455	Johns Hopkins	control
+JH112675	Johns Hopkins	disease
+JH112697	Johns Hopkins	control
+JH112708	Johns Hopkins	disease
+JH112757	Johns Hopkins	disease
+JH112762	Johns Hopkins	disease
+JH112785	Johns Hopkins	disease
+JH112826	Johns Hopkins	disease
+JH112920	Johns Hopkins	disease
+JH112981	Johns Hopkins	control
+JH113012	Johns Hopkins	disease
+JH113053	Johns Hopkins	control
+JH113081	Johns Hopkins	disease
+JH113099	Johns Hopkins	disease
+JH113969	Johns Hopkins	control
+JH114008	Johns Hopkins	disease
+JH115837	Johns Hopkins	disease
+LA190017	UCLA	control
+LA190086	UCLA	disease
+LA190118	UCLA	control
+LA190126	UCLA	disease
+LA190132	UCLA	control
+LA190159	UCLA	control
+LA190171	UCLA	disease
+LA190193	UCLA	disease
+LA190200	UCLA	control
+LA190213	UCLA	control
+LA190249	UCLA	disease
+LA190254	UCLA	control
+LA190323	UCLA	control
+LA190347	UCLA	control
+LA190351	UCLA	disease
+LA190368	UCLA	control
+LA190384	UCLA	control
+LA190420	UCLA	control
+LA190438	UCLA	control
+LA190453	UCLA	control
+LA190477	UCLA	disease
+LA190481	UCLA	control
+LA190507	UCLA	disease
+LA190515	UCLA	control
+LA190542	UCLA	disease
+LA190556	UCLA	control
+LA190574	UCLA	control
+LA190591	UCLA	disease
+LA190608	UCLA	disease
+LA190629	UCLA	control
+LA190641	UCLA	disease
+LA190673	UCLA	control
+LA190769	UCLA	control
+LA190775	UCLA	control
+LA190852	UCLA	control
+LA190880	UCLA	control
+LA190919	UCLA	disease
+LA190927	UCLA	disease
+LA190943	UCLA	control
+LA191013	UCLA	control
+LA191021	UCLA	control
+LA191150	UCLA	control
+LA191258	UCLA	control
+LA191261	UCLA	control
+LA191272	UCLA	control
+LA191364	UCLA	disease
+LV200162	UCLA	disease
+LV200185	UCLA	control
+LV200202	UCLA	control
+LV200247	UCLA	disease
+LV200284	UCLA	disease
+LV200320	UCLA	control
+LV200353	UCLA	disease
+LV200448	UCLA	disease
+LV200526	UCLA	control
+LV200571	UCLA	control
+MU160039	U of Michigan	disease
+MU160095	U of Michigan	control
+MU160112	U of Michigan	control
+MU160227	U of Michigan	control
+MU160231	U of Michigan	control
+MU160288	U of Michigan	control
+MU160316	U of Michigan	disease
+MU160341	U of Michigan	disease
+MU160405	U of Michigan	disease
+MU160418	U of Michigan	control
+MU160459	U of Michigan	control
+MU160536	U of Michigan	disease
+MU160575	U of Michigan	control
+MU160597	U of Michigan	control
+MU160668	U of Michigan	control
+MU160679	U of Michigan	control
+MU160696	U of Michigan	control
+MU160728	U of Michigan	disease
+MU160791	U of Michigan	disease
+MU160817	U of Michigan	control
+MU160921	U of Michigan	disease
+MU160949	U of Michigan	control
+MU160965	U of Michigan	control
+MU160998	U of Michigan	control
+MU161019	U of Michigan	control
+MU161027	U of Michigan	control
+MU161043	U of Michigan	control
+MU161064	U of Michigan	control
+MU161115	U of Michigan	control
+MU161156	U of Michigan	disease
+MU161174	U of Michigan	disease
+MU161189	U of Michigan	disease
+MU161211	U of Michigan	disease
+MU161278	U of Michigan	control
+MU161313	U of Michigan	control
+MU161321	U of Michigan	control
+MU161337	U of Michigan	control
+MU161365	U of Michigan	control
+MU161382	U of Michigan	control
+MU161410	U of Michigan	disease
+MU161423	U of Michigan	control
+MU161468	U of Michigan	control
+MU161479	U of Michigan	disease
+MU161496	U of Michigan	control
+MU161525	U of Michigan	control
+MU161632	U of Michigan	control
+MU161644	U of Michigan	control
+MU161660	U of Michigan	control
+MU161687	U of Michigan	control
+MU161704	U of Michigan	disease
+MU161738	U of Michigan	control
+MU161753	U of Michigan	disease
+MU161777	U of Michigan	control
+MU161781	U of Michigan	disease
+MU161799	U of Michigan	control
+MU161822	U of Michigan	control
+MU161836	U of Michigan	control
+MU161850	U of Michigan	control
+MU161916	U of Michigan	disease
+MU161929	U of Michigan	control
+MU161934	U of Michigan	control
+MU161957	U of Michigan	disease
+MU161962	U of Michigan	control
+MU161973	U of Michigan	control
+MU161985	U of Michigan	disease
+MU161990	U of Michigan	control
+MU162060	U of Michigan	control
+MU162127	U of Michigan	control
+MU162188	U of Michigan	disease
+MU162220	U of Michigan	control
+MU162253	U of Michigan	control
+MU162281	U of Michigan	disease
+MU162301	U of Michigan	control
+MU162336	U of Michigan	control
+MU162369	U of Michigan	disease
+MU162375	U of Michigan	disease
+MU162383	U of Michigan	control
+MU162397	U of Michigan	control
+MU162411	U of Michigan	control
+MU162424	U of Michigan	control
+MU162439	U of Michigan	disease
+MU162446	U of Michigan	disease
+MU162452	U of Michigan	control
+MU162478	U of Michigan	control
+MU162495	U of Michigan	control
+MU162508	U of Michigan	control
+MU162529	U of Michigan	control
+MU162557	U of Michigan	control
+MU162573	U of Michigan	control
+MU162585	U of Michigan	control
+MU162617	U of Michigan	disease
+MU162625	U of Michigan	control
+MU162672	U of Michigan	disease
+MU162700	U of Michigan	control
+MU162713	U of Michigan	control
+MU162782	U of Michigan	control
+MU162798	U of Michigan	control
+MU162810	U of Michigan	control
+MU162928	U of Michigan	control
+MU162956	U of Michigan	disease
+MU162963	U of Michigan	disease
+MU162974	U of Michigan	control
+MU163007	U of Michigan	control
+MU163015	U of Michigan	control
+MU163030	U of Michigan	control
+MU163074	U of Michigan	control
+MU163190	U of Michigan	disease
+MU163210	U of Michigan	disease
+MU163450	U of Michigan	control
+MU163475	U of Michigan	disease
+MU163559	U of Michigan	disease
+MU163560	U of Michigan	control
+MU163688	U of Michigan	disease
+MU163692	U of Michigan	control
+MU163780	U of Michigan	control
+MU163821	U of Michigan	control
+MU163909	U of Michigan	control
+NJ220025	Other	control
+NJ220132	Other	control
+NJ220159	Other	control
+NJ220265	Other	control
+NJ220276	Other	disease
+NJ220445	Other	control
+NJ220481	Other	control
+NJ220563	Other	control
+NJ220589	Other	control
+NJ220714	Other	disease
+NJ220839	Other	control
+NJ221098	Other	control
+NJ221595	Other	disease
+NJ221718	Other	disease
+SF180125	UCSF	control
+SF180158	UCSF	control
+SF180339	UCSF	control
+SF180395	UCSF	control
+SF180400	UCSF	control
+SF180555	UCSF	disease
+SF180588	UCSF	control
+SF180615	UCSF	control
+SF180710	UCSF	disease
+SF180784	UCSF	control
+SF180804	UCSF	disease
+SF180853	UCSF	control
+SF180918	UCSF	disease
+SF180959	UCSF	control
+SF180960	UCSF	control
+SF180993	UCSF	disease
+SF181050	UCSF	disease
+SF181102	UCSF	control
+SF181234	UCSF	control
+SF181257	UCSF	control
+SF181428	UCSF	control
+SF181489	UCSF	control
+SF181566	UCSF	control
+SF181613	UCSF	control
+SF181717	UCSF	control
+SF181806	UCSF	control
+SF181831	UCSF	control
+SF181864	UCSF	control
+SF181980	UCSF	control
+SF181995	UCSF	control
+SF182000	UCSF	disease
+SF182049	UCSF	control
+SF182076	UCSF	control
+SF182098	UCSF	control
+SF182175	UCSF	control
+SF182209	UCSF	control
+SF182233	UCSF	control
+SF182258	UCSF	control
+SF182272	UCSF	control
+SF182364	UCSF	disease
+SF182416	UCSF	control
+SF182434	UCSF	disease
+SF182441	UCSF	control
+SF182473	UCSF	control
+SF182524	UCSF	control
+SF182539	UCSF	disease
+SF182546	UCSF	control
+SF182578	UCSF	control
+SF182612	UCSF	control
+SF182677	UCSF	control
+SF182732	UCSF	control
+SF182863	UCSF	control
+SF182891	UCSF	control
+SF182902	UCSF	control
+SF182947	UCSF	control
+SF182951	UCSF	control
+SF182968	UCSF	disease
+SF183010	UCSF	control
+SF183180	UCSF	control
+SF183215	UCSF	control
+SF183230	UCSF	control
+SF183333	UCSF	disease
+SF183431	UCSF	disease
+SF183455	UCSF	control
+SF183492	UCSF	disease
+SF183513	UCSF	control
+SF183734	UCSF	control
+SF183773	UCSF	control
+SF183887	UCSF	control
+SF184026	UCSF	control
+TE230088	Other	control
+UA240114	Other	disease
+UA240122	Other	disease
+UA240136	Other	control
+UA240150	Other	control
+UA240197	Other	disease
+UA240653	Other	control
+UA240842	Other	control
+UA240863	Other	control
+UI250068	Other	control
+UI250124	Other	control
+UI250139	Other	disease
+UI250152	Other	disease
+UI250167	Other	disease
+UI250178	Other	disease
+UI250195	Other	disease
+UI250215	Other	control
+UI250230	Other	disease
+UI250274	Other	disease
+UI250291	Other	disease
+UI250372	Other	disease
+UI250394	Other	disease
+UI250427	Other	disease
+UI250431	Other	disease
+UI250521	Other	disease
+UI250537	Other	disease
+UI250565	Other	disease
+UI250576	Other	disease
+UI250614	Other	control
+UI250636	Other	disease
+UI250716	Other	disease
+UT170076	U of Utah	disease
+UT170114	U of Utah	disease
+UT170169	U of Utah	disease
+UT170175	U of Utah	control
+UT170183	U of Utah	control
+UT170217	U of Utah	control
+UT170319	U of Utah	control
+UT170364	U of Utah	control
+UT170392	U of Utah	control
+UT170429	U of Utah	control
+UT170457	U of Utah	control
+UT170490	U of Utah	control
+UT170524	U of Utah	control
+UT170546	U of Utah	control
+UT170552	U of Utah	control
+UT170653	U of Utah	control
+UT170666	U of Utah	control
+UT170681	U of Utah	disease
+UT170718	U of Utah	control
+UT170732	U of Utah	control
+UT170863	U of Utah	disease
+UT170874	U of Utah	control
+UT170935	U of Utah	control
+UT170984	U of Utah	control
+UT171159	U of Utah	control
+UT171171	U of Utah	disease
+UT171200	U of Utah	control
+UT171249	U of Utah	control
+UT171282	U of Utah	disease
+UT171323	U of Utah	disease
+UT171453	U of Utah	control
+UT171481	U of Utah	control
+UT171528	U of Utah	disease
+UT171574	U of Utah	control
+UT171657	U of Utah	control
+UT171685	U of Utah	disease
+UT171783	U of Utah	disease
+UT171797	U of Utah	disease
+UT171852	U of Utah	control
+UT171964	U of Utah	disease
+UT171970	U of Utah	control
+UT172222	U of Utah	control
+UT172339	U of Utah	disease
+UT172346	U of Utah	control
+UT172400	U of Utah	control
+UT172413	U of Utah	disease
+UT172449	U of Utah	disease
+UT172454	U of Utah	control
+UT172476	U of Utah	control
+UT172588	U of Utah	disease
+UT172592	U of Utah	disease
+UT172674	U of Utah	control
+UT172689	U of Utah	control
+UT172691	U of Utah	control
+UT172812	U of Utah	disease
+UT172866	U of Utah	control
+UT172877	U of Utah	disease
+UT172899	U of Utah	disease
+UT172944	U of Utah	control
+UT172959	U of Utah	disease
+UT173127	U of Utah	control
+UT173439	U of Utah	disease
+UT173516	U of Utah	control
+UT173541	U of Utah	control
+UT173617	U of Utah	control
+UT173754	U of Utah	disease
+UT173896	U of Utah	control
+UT173974	U of Utah	control
+UT174180	U of Utah	disease
+UT174675	U of Utah	disease
+WF120165	Wake Forest University	disease
+WF120293	Wake Forest University	control
+WF120409	Wake Forest University	control
+WF120502	Wake Forest University	disease
+WF120510	Wake Forest University	control
+WF120523	Wake Forest University	control
+WF120535	Wake Forest University	control
+WF120584	Wake Forest University	disease
+WF120603	Wake Forest University	control
+WF120624	Wake Forest University	control
+WF120646	Wake Forest University	control
+WF120652	Wake Forest University	disease
+WF120680	Wake Forest University	control
+WF120873	Wake Forest University	disease
+WF120890	Wake Forest University	control
+WF120936	Wake Forest University	control
+WF121018	Wake Forest University	control
+WF121093	Wake Forest University	control
+WF121119	Wake Forest University	disease
+WF121127	Wake Forest University	control
+WF121212	Wake Forest University	disease
+WF121383	Wake Forest University	control
+WF121446	Wake Forest University	disease
+WF121467	Wake Forest University	control
+WF121495	Wake Forest University	disease
+WF121617	Wake Forest University	disease
+WF121754	Wake Forest University	control
+WF121776	Wake Forest University	control
+WF121802	Wake Forest University	control
+WF121884	Wake Forest University	control
+WF121907	Wake Forest University	control
+WF121928	Wake Forest University	disease
+WF121956	Wake Forest University	disease
+WF122040	Wake Forest University	disease
+WF122193	Wake Forest University	control
+WF122200	Wake Forest University	disease
+WF122213	Wake Forest University	disease
+WF122420	Wake Forest University	control
+WF122445	Wake Forest University	disease
+WF122453	Wake Forest University	disease
+WF122574	Wake Forest University	control
+WF122608	Wake Forest University	control
+WF122629	Wake Forest University	control
+WF123252	Wake Forest University	control
+WF123267	Wake Forest University	disease
+WF123278	Wake Forest University	control
+WF123382	Wake Forest University	control
+WF123398	Wake Forest University	control
+WF123435	Wake Forest University	control
+WF123447	Wake Forest University	control
+WF123517	Wake Forest University	disease
+WF123572	Wake Forest University	disease
+WF123632	Wake Forest University	control
+WF123671	Wake Forest University	control
+WF123801	Wake Forest University	control
+WF123814	Wake Forest University	control
+WF123869	Wake Forest University	control
+WF124097	Wake Forest University	disease
+WF124102	Wake Forest University	disease
+WF124147	Wake Forest University	control
+WF124332	Wake Forest University	control
+WF124520	Wake Forest University	control
+WF124553	Wake Forest University	control
+WF124577	Wake Forest University	control
+WF124581	Wake Forest University	control
+WF124600	Wake Forest University	control
+WF124613	Wake Forest University	control
+WF124740	Wake Forest University	control
+WF124855	Wake Forest University	disease
+WF124864	Wake Forest University	control
+WF124870	Wake Forest University	control
+WF125037	Wake Forest University	control
+WF125136	Wake Forest University	control
+WF125209	Wake Forest University	control
+WF125272	Wake Forest University	disease
+WF125327	Wake Forest University	control
+WF125408	Wake Forest University	control
+WF125434	Wake Forest University	control

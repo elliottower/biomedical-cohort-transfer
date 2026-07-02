@@ -1,0 +1,63 @@
+{
+  "disease": "Lung_Cancer",
+  "n_studies": 3,
+  "n_pairs": 6,
+  "n_samples": 367,
+  "raw_rho": -0.7500000000000001,
+  "raw_p": 0.0859374999999999,
+  "partial_rho": -0.7235419298994642,
+  "clustered_bootstrap": {
+    "median": -0.7235419298994642,
+    "ci_lo": -0.7235419298994642,
+    "ci_hi": -0.7235419298994642,
+    "pct_positive": 0.0,
+    "n_valid": 462
+  },
+  "k_sensitivity": [
+    {
+      "k": 5,
+      "raw_rho": -0.2647058823529412,
+      "raw_p": 0.612215041726033,
+      "partial_rho": -0.14117891315111492
+    },
+    {
+      "k": 10,
+      "raw_rho": -0.7500000000000001,
+      "raw_p": 0.0859374999999999,
+      "partial_rho": -0.7235419298994642
+    },
+    {
+      "k": 15,
+      "raw_rho": -0.7247137945655605,
+      "raw_p": 0.10324280462370765,
+      "partial_rho": -0.6416236526819376
+    },
+    {
+      "k": 20,
+      "raw_rho": -0.6669729688499157,
+      "raw_p": 0.14789299016417004,
+      "partial_rho": -0.6445033866354897
+    },
+    {
+      "k": 30,
+      "raw_rho": -0.7015706849811753,
+      "raw_p": 0.12030101833075674,
+      "partial_rho": -0.6428785635743143
+    },
+    {
+      "k": 50,
+      "raw_rho": -0.7500000000000001,
+      "raw_p": 0.0859374999999999,
+      "partial_rho": -0.7235419298994642
+    }
+  ],
+  "loo_validation": {
+    "per_study": [],
+    "mean_mae_full": NaN,
+    "mean_mae_int_only": NaN,
+    "mean_mae_baseline": NaN,
+    "improvement_over_baseline_pct": NaN,
+    "improvement_over_int_only_pct": NaN,
+    "mean_rho": NaN
+  }
+}

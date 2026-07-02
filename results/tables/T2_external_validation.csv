@@ -1,0 +1,2 @@
+backend,internal_auc_c1,internal_auc_c2,external_auc_fwd,external_auc_rev,external_auc_fwd_ci_lo,external_auc_fwd_ci_hi,auc_gap_fwd,auc_gap_rev
+classical,0.5819210666194189,0.608091764379493,0.44595204654895665,0.447282980177717,0.3863513357471448,0.49510877339861536,0.13596902007046224,0.16080878420177597

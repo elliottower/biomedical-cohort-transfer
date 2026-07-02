@@ -1,0 +1,11 @@
+score,classifier,spearman_rho,p_value,abs_rho,is_baseline
+Grassmannian geodesic,Logistic,0.040125648588806684,0.6844432525238516,0.040125648588806684,False
+Fisher-Rao confound,Logistic,,,,False
+Centroid distance (baseline),Logistic,0.15679637568309174,0.11018796135320867,0.15679637568309174,True
+Domain classifier AUC (baseline),Logistic,-0.09205687531438346,0.35030612298300007,0.09205687531438346,True
+Variance ratio (baseline),Logistic,0.18844696479086254,0.05420711715232039,0.18844696479086254,True
+Grassmannian geodesic,Random Forest,0.1801368442877877,0.06594012124326372,0.1801368442877877,False
+Fisher-Rao confound,Random Forest,,,,False
+Centroid distance (baseline),Random Forest,0.00855276798673025,0.9309956055294688,0.00855276798673025,True
+Domain classifier AUC (baseline),Random Forest,0.04695032597669293,0.6343585721247769,0.04695032597669293,True
+Variance ratio (baseline),Random Forest,-0.050228073812979473,0.61086091053496,0.050228073812979473,True

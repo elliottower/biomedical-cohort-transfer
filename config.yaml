@@ -1,0 +1,37 @@
+# Geometric Transportability — configuration
+# Dataset accessions and hyperparameters
+
+dataset:
+  # Primary: MTBLS10205 — breast cancer, 4 cohorts/4 hospitals, 1947 serum samples
+  # LC-MS/MS, Zhejiang Province. Discovery/validation split built in.
+  primary_accession: "MTBLS10205"
+  fallback_accessions:
+    # Pancreatic cancer, 10 U.S. PLCO sites, 1036 serum samples
+    - "MTBLS7260"
+    # Lung cancer, 6-site CARET trial, 299 plasma samples
+    - "ST000396"
+    # Ovarian cancer, 1432 serum, discovery + validation
+    - "ST003815"
+  data_dir: "data"
+
+embedding:
+  backends:
+    - raw_features
+    - classical
+  # LSM gated behind this flag — requires Pyxis API or self-supervised pretraining
+  use_lsm: false
+  classical:
+    method: pca
+    n_components: 50
+
+transportability:
+  subspace_k: 10
+  n_permutations: 1000
+  alpha: 0.05
+
+external_validation:
+  classifier: logistic
+  cv_folds: 5
+  n_bootstrap: 1000
+
+seed: 42

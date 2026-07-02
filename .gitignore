@@ -1,0 +1,44 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.env
+.venv/
+.pytest_cache/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Raw and processed data (too large for git; download scripts provided)
+data/raw/
+data/processed/
+**/geo_cache/
+batch2_extensions/ibd_microbiome/data/siamcat_raw/
+batch2_extensions/metabolomics_multisite/data/spiromics/
+batch3_extensions/tcga_brca/data/xena_*.tsv.gz
+
+# Large species profile matrices (reproduced by scripts)
+**/species_profiles.tsv
+
+# TCGA clinical JSON (downloaded by script)
+batch3_extensions/tcga_brca/data/clinical_patient.json
+
+# Embedded git repo (Wirbel et al. data clone)
+microbiome-crc/data/crc_meta/
+
+# Intermediate paper PDFs (keep only latest)
+paper.pdf
+paper_v1*.pdf
+paper_v2*.pdf
+paper_v3.pdf
+
+# QMDiab large Excel files
+metabolomics-multilab/data/qmdiab/QMDiab_metabolomics_Preprocessed.xlsx
+metabolomics-multilab/data/qmdiab/QMDiab_metabolomics_OrigScale.xlsx

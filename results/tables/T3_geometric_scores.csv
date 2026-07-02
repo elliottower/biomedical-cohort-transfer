@@ -1,0 +1,2 @@
+backend,geodesic_dist,holonomy_norm,h1_nonzero,mean_principal_angle_deg,confound_fraction,signal_fraction,geodesic_z,geodesic_p,holonomy_z,holonomy_p,auc_gap_z,auc_gap_p
+classical,5.960464477539063e-08,4.496994858392691e-15,False,6.454936811677346e-07,0.0,1.0,-12.595646601423764,1.0,-0.754006082480505,0.73,2.234366753753264,0.0

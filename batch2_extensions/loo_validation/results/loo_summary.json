@@ -1,0 +1,8 @@
+{
+  "overall_mae_full": 0.05718802350775425,
+  "overall_mae_int_only": 0.07351065547530128,
+  "overall_mae_baseline": 0.09786668865954133,
+  "overall_rho": 0.8029411764705883,
+  "mae_improvement_over_baseline_pct": 41.565384206775434,
+  "mae_improvement_over_int_only_pct": 22.20444350823567
+}

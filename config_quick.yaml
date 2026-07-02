@@ -1,0 +1,24 @@
+dataset:
+  data_dir: data
+  fallback_accessions:
+  - MTBLS7260
+  - ST000396
+  - ST003815
+  primary_accession: MTBLS10205
+embedding:
+  backends:
+  - raw_features
+  - classical
+  classical:
+    method: pca
+    n_components: 50
+  use_lsm: false
+external_validation:
+  classifier: logistic
+  cv_folds: 5
+  n_bootstrap: 100
+seed: 42
+transportability:
+  alpha: 0.05
+  n_permutations: 100
+  subspace_k: 10

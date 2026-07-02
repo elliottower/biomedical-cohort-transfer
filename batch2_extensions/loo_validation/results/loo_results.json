@@ -1,0 +1,101 @@
+[
+  {
+    "held_out": "AT-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.044161027451531436,
+    "rmse_full": 0.05705433818882137,
+    "rho_predicted_vs_actual": 0.8823529411764707,
+    "mae_baseline_mean": 0.10808880626239134,
+    "mae_int_only": 0.055498074419054126,
+    "train_partial_rho": 0.5737065098936353
+  },
+  {
+    "held_out": "CN-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.04504150331423268,
+    "rmse_full": 0.062089073240600964,
+    "rho_predicted_vs_actual": 0.7382352941176471,
+    "mae_baseline_mean": 0.07556452658981287,
+    "mae_int_only": 0.07793483631794268,
+    "train_partial_rho": 0.5263057129269392
+  },
+  {
+    "held_out": "DE-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.060610143176819904,
+    "rmse_full": 0.07291190850887351,
+    "rho_predicted_vs_actual": 0.8294117647058824,
+    "mae_baseline_mean": 0.11934677523502021,
+    "mae_int_only": 0.080626892800975,
+    "train_partial_rho": 0.5884878506024238
+  },
+  {
+    "held_out": "FR-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.03921343275920977,
+    "rmse_full": 0.04830268997329459,
+    "rho_predicted_vs_actual": 0.8735294117647058,
+    "mae_baseline_mean": 0.07591676055467819,
+    "mae_int_only": 0.0686726637706997,
+    "train_partial_rho": 0.517967839863671
+  },
+  {
+    "held_out": "IT-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.05962067547106656,
+    "rmse_full": 0.06963251371555594,
+    "rho_predicted_vs_actual": 0.8764705882352942,
+    "mae_baseline_mean": 0.10255758212617982,
+    "mae_int_only": 0.06149268900163241,
+    "train_partial_rho": 0.5984472737740651
+  },
+  {
+    "held_out": "IT-CRC-2",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.06299166858031492,
+    "rmse_full": 0.07172874641113192,
+    "rho_predicted_vs_actual": 0.5735294117647058,
+    "mae_baseline_mean": 0.07674032495455196,
+    "mae_int_only": 0.056290511254933576,
+    "train_partial_rho": 0.6899391149838264
+  },
+  {
+    "held_out": "JP-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.07162882794470574,
+    "rmse_full": 0.08694443268422128,
+    "rho_predicted_vs_actual": 0.7147058823529412,
+    "mae_baseline_mean": 0.09916340494172646,
+    "mae_int_only": 0.07181576230519954,
+    "train_partial_rho": 0.6557219308868105
+  },
+  {
+    "held_out": "US-CRC",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.0510553610013424,
+    "rmse_full": 0.070073317343484,
+    "rho_predicted_vs_actual": 0.8705882352941177,
+    "mae_baseline_mean": 0.11819919366496709,
+    "mae_int_only": 0.06019130485205228,
+    "train_partial_rho": 0.6279318384212907
+  },
+  {
+    "held_out": "US-CRC-2",
+    "n_train": 56,
+    "n_test": 16,
+    "mae_full": 0.08036957187056487,
+    "rmse_full": 0.09767651253936198,
+    "rho_predicted_vs_actual": 0.8676470588235294,
+    "mae_baseline_mean": 0.10522282360654406,
+    "mae_int_only": 0.1290731645552222,
+    "train_partial_rho": 0.35927243929090674
+  }
+]

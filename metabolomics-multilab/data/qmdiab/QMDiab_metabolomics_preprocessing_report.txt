@@ -1,0 +1,15 @@
+*********************************
+** QMDiab preprocessing report **
+*********************************
+
+Input: OrigScale data from Metabolon
+
+Exclude: metabolites with more than 30% missing values, samples with more than 30% missing values
+
+Normalization: quotient normalization
+
+Transformation: zero values set to min, then log10
+
+Imputation: KNN-based imputation on observations with variable pre-selection
+
+Scaling: no scaling

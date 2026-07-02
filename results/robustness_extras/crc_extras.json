@@ -1,0 +1,41 @@
+{
+  "lr_geodesic": {
+    "raw_rho": 0.11706721048698075,
+    "partial_rho": 0.5813749641831601,
+    "clustered_bootstrap": {
+      "median": 0.5560294157486698,
+      "ci_lo": -0.018159132522141484,
+      "ci_hi": 0.8004240590765427,
+      "pct_positive": 96.95,
+      "n_boot": 2000,
+      "n_valid": 2000,
+      "n_studies": 9
+    }
+  },
+  "lr_chordal": {
+    "raw_rho": 0.1060182102387067,
+    "partial_rho": 0.5496065571537463,
+    "clustered_bootstrap": {
+      "median": 0.5285557893865446,
+      "ci_lo": -0.06188904350200918,
+      "ci_hi": 0.7887525697587908,
+      "pct_positive": 95.95,
+      "n_boot": 2000,
+      "n_valid": 2000,
+      "n_studies": 9
+    }
+  },
+  "rf_geodesic": {
+    "raw_rho": -0.03138944984486078,
+    "partial_rho": 0.5808635601475882,
+    "clustered_bootstrap": {
+      "median": 0.5324458218255201,
+      "ci_lo": 0.029977256551002352,
+      "ci_hi": 0.7715387370571095,
+      "pct_positive": 97.8,
+      "n_boot": 2000,
+      "n_valid": 2000,
+      "n_studies": 9
+    }
+  }
+}
