@@ -1,5 +1,7 @@
 # biomedical-cohort-transfer
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21248764.svg)](https://doi.org/10.5281/zenodo.21248764)
+
 Grassmannian geodesic distance predicts cross-cohort classifier degradation in biomedical data, after controlling for source classifier quality.
 
 ## What this does
@@ -51,11 +53,13 @@ PYTHONPATH=. uv run python -m pytest tests/ -v
 
 ## Paper
 
-The current manuscript is `paper_v4.tex`. Compile with:
+The submission manuscript is `paper_v5_plos.tex` (PLOS ONE format). Compile with:
 
 ```bash
-pdflatex paper_v4 && bibtex paper_v4 && pdflatex paper_v4 && pdflatex paper_v4
+pdflatex paper_v5_plos && bibtex paper_v5_plos && pdflatex paper_v5_plos && pdflatex paper_v5_plos
 ```
+
+**DOI:** [10.5281/zenodo.21248764](https://doi.org/10.5281/zenodo.21248764)
 
 ## License
 
