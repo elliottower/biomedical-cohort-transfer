@@ -6,7 +6,7 @@
 
 **Integrity protocol:** This document, the analysis scripts, and the decision criteria are committed together before any Phase 2 analyses are run. The commit SHA is recorded below. No placeholder functions, no TODO blocks. The same protocol was used in Tower (2026) for the cross-design evidence discordance paper (commit SHA: b96d10a) and the MS/MS spectral transportability paper.
 
-**Commit SHA:** _(to be filled at commit time)_
+**Commit SHA:** 675290c
 
 ---
 
