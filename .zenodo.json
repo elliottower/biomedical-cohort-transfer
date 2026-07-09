@@ -1,0 +1,26 @@
+{
+  "title": "Grassmannian Geodesic Distance Predicts Cross-Cohort Classifier Degradation",
+  "upload_type": "software",
+  "description": "Grassmannian geodesic distance predicts cross-cohort classifier degradation in biomedical data, after controlling for source classifier quality.",
+  "creators": [
+    {
+      "name": "Tower, Elliot",
+      "orcid": "0000-0001-7004-8884"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Grassmannian",
+    "geodesic distance",
+    "cross-cohort transfer",
+    "biomedical",
+    "classifier degradation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/elliottower/biomedical-cohort-transfer",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
