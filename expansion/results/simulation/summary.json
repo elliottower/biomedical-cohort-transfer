@@ -1,0 +1,28 @@
+{
+  "params": {
+    "n_cohorts": 12,
+    "n_reps": 100,
+    "d": 200,
+    "k": 10,
+    "n_per_cohort": 150,
+    "obs_noise": 0.1
+  },
+  "heterogeneity_levels": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "cohort_counts": [
+    5,
+    7,
+    9,
+    12,
+    15,
+    20,
+    25
+  ],
+  "timestamp": "2026-07-21T08:40:41.610821"
+}
