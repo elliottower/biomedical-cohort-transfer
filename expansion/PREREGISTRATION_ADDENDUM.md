@@ -7,7 +7,7 @@
 
 **Integrity protocol:** This addendum is committed before any bracket-norm or directional-transport analyses are run on the expanded CRC or T2D data. The scorer functions (`bracket_norm_score`, `directional_transport_score`) were written before the original Phase 1 analysis and have not been modified. The commit SHA of this addendum is recorded below.
 
-**Commit SHA:** _(to be filled at commit time)_
+**Commit SHA:** 5bb99d6
 **Scorer SHA-256:** `0933ba775859f3b0216480d3a095cc936486e94d77d494ae23e13c75031d6b19` (`src/transportability.py`)
 
 ---
