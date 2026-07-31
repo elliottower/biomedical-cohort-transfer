@@ -16,6 +16,7 @@ from src.transportability import (
     sheaf_h1_two_cohort,
     sheaf_h1_multi_cohort,
     sheaf_q_test,
+    pca_regularized_wcov_distance,
 )
 
 
@@ -145,3 +146,64 @@ class TestTopKSubspace:
         _, ev = top_k_subspace(X, k=5)
         assert ev.sum() < 1.0
         assert all(e > 0 for e in ev)
+
+
+# ----------------------------------------------------------------------
+# pca_regularized_wcov_distance
+# ----------------------------------------------------------------------
+
+def _two_class_cohort(n_per_class, n_features, scale=1.0):
+    """Two balanced classes with unit-ish within-class scatter, mean-separated."""
+    a = np.random.randn(n_per_class, n_features) * scale
+    b = np.random.randn(n_per_class, n_features) * scale + 3.0
+    X = np.vstack([a, b])
+    y = np.array([0] * n_per_class + [1] * n_per_class)
+    return X, y
+
+
+def test_pca_regularized_wcov_distance_is_zero_for_identical_cohorts():
+    X, y = _two_class_cohort(200, 12)
+    d = pca_regularized_wcov_distance(X, y, X.copy(), y.copy(), k=5)
+    assert d == pytest.approx(0.0, abs=1e-8)
+
+
+def test_pca_regularized_wcov_distance_is_invariant_to_shared_rotation():
+    # Rotating the feature space of BOTH cohorts must not change the distance:
+    # the joint PCA basis rotates with the data and the Frobenius norm of a
+    # log-covariance difference is orthogonally invariant.
+    X1, y1 = _two_class_cohort(150, 10)
+    X2, y2 = _two_class_cohort(150, 10, scale=1.8)
+    Q = np.linalg.qr(np.random.randn(10, 10))[0]
+
+    plain = pca_regularized_wcov_distance(X1, y1, X2, y2, k=4)
+    rotated = pca_regularized_wcov_distance(X1 @ Q, y1, X2 @ Q, y2, k=4)
+    assert rotated == pytest.approx(plain, rel=1e-6)
+
+
+def test_pca_regularized_wcov_distance_grows_with_within_class_variance_ratio():
+    # A cohort whose within-class scatter is inflated by a larger factor must
+    # sit further away. Run many draws and compare medians so no seed is needed.
+    def median_distance(scale, trials=40):
+        out = []
+        for _ in range(trials):
+            X1, y1 = _two_class_cohort(120, 10)
+            X2, y2 = _two_class_cohort(120, 10, scale=scale)
+            out.append(pca_regularized_wcov_distance(X1, y1, X2, y2, k=4))
+        return float(np.median(out))
+
+    near = median_distance(1.2)
+    far = median_distance(3.0)
+    assert far > near
+
+
+def test_pca_regularized_wcov_distance_recovers_known_isotropic_scaling():
+    # Scaling every feature of cohort 2 by s scales its within-class covariance
+    # by s^2 in any shared orthonormal subspace, so logm differs by 2*log(s)*I
+    # and the Frobenius norm is sqrt(k) * 2 * |log s|.
+    s, k = 2.5, 4
+    errs = []
+    for _ in range(25):
+        X1, y1 = _two_class_cohort(400, 8)
+        d = pca_regularized_wcov_distance(X1, y1, X1 * s, y1.copy(), k=k)
+        errs.append(abs(d - np.sqrt(k) * 2 * np.log(s)))
+    assert float(np.median(errs)) < 0.05

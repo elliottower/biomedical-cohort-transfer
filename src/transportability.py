@@ -415,3 +415,66 @@ def sheaf_q_test(estimates):
     p = 1.0 - chi2.cdf(Q, df) if df > 0 else 1.0
 
     return p, Q, df
+
+
+# ======================================================================
+# PCA-regularized within-class covariance distance
+# ======================================================================
+
+def pca_regularized_wcov_distance(X1, y1, X2, y2, k, ridge=1e-6):
+    """Within-class covariance distance inside a shared top-k PCA subspace.
+
+    The raw log-Frobenius covariance distance degrades when the feature count
+    approaches the sample count, because the within-class scatter matrices
+    become ill-conditioned and logm amplifies their smallest eigenvalues.
+    Projecting both cohorts onto a joint top-k principal subspace first bounds
+    the condition number, which is the "effective dimensionality" fix the
+    validation preregistration tests.
+
+    Steps: joint PCA on the concatenated cohorts, project both to k dimensions,
+    accumulate within-class scatter per class, then take the log-Frobenius
+    distance between the two ridge-stabilized covariances.
+
+    Parameters
+    ----------
+    X1, X2 : (n_samples, n_features) arrays, one per cohort.
+    y1, y2 : (n_samples,) class label arrays.
+    k : int, retained principal components. Must be <= n_features.
+    ridge : float, added to the diagonal before logm.
+
+    Returns
+    -------
+    float
+        ||logm(Sw1) - logm(Sw2)||_F in the shared subspace.
+
+    Notes
+    -----
+    Promoted verbatim (behaviour-preserving) from
+    `expansion/exploratory_pca_regularized_wcov.py::pca_projected_wcov_distance`
+    so that `expansion/PREREGISTRATION_VALIDATION.md` can name a function that
+    exists in `src/`.
+    """
+    X_cat = np.vstack([X1, X2])
+    mu = X_cat.mean(axis=0)
+    Vt = np.linalg.svd(X_cat - mu, full_matrices=False)[2]
+    V_k = Vt[:k].T
+
+    X1_proj = (X1 - mu) @ V_k
+    X2_proj = (X2 - mu) @ V_k
+
+    classes = np.unique(np.concatenate([y1, y2]))
+    Sw1 = np.zeros((k, k))
+    Sw2 = np.zeros((k, k))
+    for c in classes:
+        m1 = y1 == c
+        m2 = y2 == c
+        if m1.sum() < 2 or m2.sum() < 2:
+            continue
+        Z1 = X1_proj[m1] - X1_proj[m1].mean(axis=0)
+        Z2 = X2_proj[m2] - X2_proj[m2].mean(axis=0)
+        Sw1 += Z1.T @ Z1 / (m1.sum() - 1)
+        Sw2 += Z2.T @ Z2 / (m2.sum() - 1)
+
+    eye = np.eye(k)
+    diff = linalg.logm(Sw1 + ridge * eye) - linalg.logm(Sw2 + ridge * eye)
+    return float(np.linalg.norm(diff, "fro"))
