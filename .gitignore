@@ -39,6 +39,10 @@ paper_v1*.pdf
 paper_v2*.pdf
 paper_v3.pdf
 
+# Submission correspondence: never tracked
+SUBMISSION_STATUS.md
+*cover_letter*
+
 # QMDiab large Excel files
 metabolomics-multilab/data/qmdiab/QMDiab_metabolomics_Preprocessed.xlsx
 metabolomics-multilab/data/qmdiab/QMDiab_metabolomics_OrigScale.xlsx
